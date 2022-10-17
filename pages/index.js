@@ -11,7 +11,7 @@ export default function Home() {
         <div
           className="bg-center"
           style={{
-            backgroundImage: `url(/background.png)`,
+            backgroundImage: `url(/backgroundCopy.png)`,
             width: "100%",
             height: "100%",
             backgroundSize: "cover",
@@ -24,7 +24,7 @@ export default function Home() {
             backgroundSize: 'cover'
           }}>
             {/* Flex Container */}
-            <div className="flex flex-col-reverse md:flex-row items-center px-6 mx-auto space-y-0 md:space-y-0">
+            <div className="flex flex-col-reverse md:flex-row items-center px-6 space-y-0 md:space-y-0">
               {/* Left Item */}
               <div className="flex flex-col mb-32 space-y-12 md:w-1/2">
                 <h1 className="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left text-white">

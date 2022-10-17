@@ -25,11 +25,13 @@ export default function Navbar() {
               </a>
             </Link>
             {/* token */}
-            <a>
-              <p className="text-blue-900 hover:text-darkGreyishBlue font-semibold">
-                Token
-              </p>
-            </a>
+            <Link href="/token">
+              <a>
+                <p className="text-blue-900 hover:text-darkGreyishBlue font-semibold">
+                  Token
+                </p>
+              </a>
+            </Link>
             {/* NFT */}
             <a>
               <p className="text-blue-900 hover:text-darkGreyishBlue font-semibold">

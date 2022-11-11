@@ -70,10 +70,10 @@ export default function Nft() {
           </p>
         </div>
         {/* Cards */}
-        <div className="grid grid-cols-1 gap-5 md:grid-cols-3 lg:pt-10 lg:pb-10">
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-3 lg:pt-10 lg:pb-10 mx-8">
           {/* card 1 */}
-          <div className="p-6 rounded-lg bg-[#23395f] h-full">
-            <div className="flex flex-col items-start justify-start my-5 space-y-8 w-64 ">
+          <div className="p-5 rounded-lg bg-[#23395f] h-full">
+            <div className="flex flex-col items-start justify-start my-5 space-y-8">
               <h3 className="text-lg font-bold text-yellow-500">Uniqueness</h3>
               <p className="text-sm leading-6 text-white">
                 NFT development company tokens are a dependable solution for
@@ -83,8 +83,8 @@ export default function Nft() {
             </div>
           </div>
           {/* card 2 */}
-          <div className="p-6 rounded-lg bg-[#23395f]">
-            <div className="flex flex-col items-start justify-start my-5 space-y-8 w-64 ">
+          <div className="p-5 rounded-lg bg-[#23395f]">
+            <div className="flex flex-col items-start justify-start my-5 space-y-8">
               <h3 className="text-lg font-bold text-yellow-500">
                 Resale and Royality
               </h3>
@@ -96,8 +96,8 @@ export default function Nft() {
             </div>
           </div>
           {/* card 3 */}
-          <div className="p-6 rounded-lg bg-[#23395f]">
-            <div className="flex flex-col items-start justify-start my-5 space-y-8 w-64 ">
+          <div className="p-5 rounded-lg bg-[#23395f]">
+            <div className="flex flex-col items-start justify-start my-5 space-y-4">
               <h3 className="text-lg font-bold text-yellow-500">Permanence</h3>
               <p className="text-sm leading-6 text-white">
                 Because NFT token creation takes place on a blockchain platform,
@@ -171,10 +171,10 @@ export default function Nft() {
           </p>
         </div>
         {/* Cards white*/}
-        <div className="grid grid-cols-1 gap-5 pt-2 md:grid-cols-3 lg:pt-20 lg:pb-10 m-5">
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-3 lg:pt-20 lg:pb-10 mx-8">
           {/* card 1 */}
-          <div className="p-6 rounded-lg bg-white h-full">
-            <div className="flex flex-col items-center justify-center my-5 space-y-8 w-64 ">
+          <div className="p-4 rounded-lg bg-white h-full">
+            <div className="flex flex-col items-center justify-center my-5 space-y-4 w-full">
               <h3 className="text-lg font-bold text-yellow-500">Technical Prowess</h3>
               <p className="text-sm font-semibold leading-6 text-color-[#23395f]">
                 NFT development company tokens are a dependable solution for
@@ -184,8 +184,8 @@ export default function Nft() {
             </div>
           </div>
           {/* card 2 */}
-          <div className="p-6 rounded-lg bg-white">
-            <div className="flex flex-col items-center justify-center my-5 space-y-8 w-64 ">
+          <div className="p-4 rounded-lg bg-white">
+            <div className="flex flex-col items-center justify-center my-5 space-y-4 w-full">
               <h3 className="text-lg font-bold text-yellow-500">
                Expert Team
               </h3>
@@ -197,8 +197,8 @@ export default function Nft() {
             </div>
           </div>
           {/* card 3 */}
-          <div className="p-6 rounded-lg bg-white">
-            <div className="flex flex-col items-center justify-center my-5 space-y-8 w-64 ">
+          <div className="p-4 rounded-lg bg-white">
+            <div className="flex flex-col items-center justify-center my-5 space-y-8 w-full ">
               <h3 className="text-lg font-bold text-yellow-500">Rapid Development</h3>
               <p className="text-sm font-semibold leading-6 text-color-[#23395f]">
                 Because NFT token creation takes place on a blockchain platform,

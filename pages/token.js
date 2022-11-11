@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar"
 import Image from "next/image"
 import cryptoCoin from "../public/cryptoCoin.png"
 import Tcoins from "../public/Tcoins.png"
-import nft from "../public/nft.png"
+import nft from "../public/bg-nft.png"
 import longCoin from "../public/longCoin.png"
 import detail from "../public/detailcrypto.png"
 import yellowicon from "../public/yellowicon.png"
@@ -97,7 +97,7 @@ export default function Token() {
         </section>
         {/* token development solution */}
         <section className="bg-[#e9eef4]">
-          <div className="flex flex-col items-center justify-center w-full py-2">
+          <div className="flex flex-col items-center justify-center w-full py-1">
             <h1 className="text-color-[#29374d] font-bold text-2xl">
               Token Development Solution
             </h1>
@@ -106,7 +106,7 @@ export default function Token() {
             </p>
           </div>
           <div
-            className="grid grid-cols-1 gap-4 pt-2 md:grid-cols-3 lg:pt-20 lg:pb-10"
+            className="grid grid-cols-1 gap-4 pt-2 md:grid-cols-3 lg:pt-20 lg:pb-10 mx-10"
             // style={}
           >
             {/*  1 token*/}

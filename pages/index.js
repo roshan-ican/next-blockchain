@@ -2,7 +2,7 @@ import Layout from "../components/Layout"
 import Image from "next/image"
 import blockchain from "../public/crypto 11.png"
 import network from "../public/crypto-network.jpg"
-import teach from "../public/crypto 12.png"
+import teach from "../public/teachingBitcoin.png"
 
 export default function Home() {
   return (

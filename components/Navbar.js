@@ -41,11 +41,13 @@ export default function Navbar() {
               </a>
             </Link>
             {/* Exchange */}
-            <a>
-              <p className="text-blue-900 hover:text-darkGreyishBlue font-semibold">
-                Exchange
-              </p>
-            </a>
+            <Link href="/exchange">
+              <a>
+                <p className="text-blue-900 hover:text-darkGreyishBlue font-semibold">
+                  Exchange
+                </p>
+              </a>
+            </Link>
             {/* Tokenization */}
             <a>
               <p className="text-blue-900 hover:text-darkGreyishBlue font-semibold">

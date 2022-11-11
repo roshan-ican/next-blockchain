@@ -12,9 +12,9 @@ export default function Layout({ title, children }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex min-h-screen flex-col justify-between">
-        <Navbar/>
+        <Navbar />
         <main>{children}</main>
-        <Footer/>
+        <Footer />
       </div>
     </>
   )

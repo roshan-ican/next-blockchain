@@ -33,11 +33,13 @@ export default function Navbar() {
               </a>
             </Link>
             {/* NFT */}
-            <a>
-              <p className="text-blue-900 hover:text-darkGreyishBlue font-semibold">
-                NFT
-              </p>
-            </a>
+            <Link href="/nft">
+              <a>
+                <p className="text-blue-900 hover:text-darkGreyishBlue font-semibold">
+                  NFT
+                </p>
+              </a>
+            </Link>
             {/* Exchange */}
             <a>
               <p className="text-blue-900 hover:text-darkGreyishBlue font-semibold">

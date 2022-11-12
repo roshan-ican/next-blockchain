@@ -19,7 +19,7 @@ export default function Navbar() {
           <div className="hidden space-x-8 mx-4 md:flex">
             <Link href="/">
               <a>
-                <p className="text-blue-900 hover:text-blue font-semibold">
+                <p className="text-blue-900 hover:text-blue font-semibold active:text-yellow-500">
                   Blockchain
                 </p>
               </a>
@@ -27,7 +27,7 @@ export default function Navbar() {
             {/* token */}
             <Link href="/token">
               <a>
-                <p className="text-blue-900 hover:text-darkGreyishBlue font-semibold">
+                <p className="text-blue-900 hover:text-darkGreyishBlue font-semibold active:text-yellow-500">
                   Token
                 </p>
               </a>
@@ -35,7 +35,7 @@ export default function Navbar() {
             {/* NFT */}
             <Link href="/nft">
               <a>
-                <p className="text-blue-900 hover:text-darkGreyishBlue font-semibold">
+                <p className="text-blue-900 hover:text-darkGreyishBlue font-semibold active:text-yellow-500">
                   NFT
                 </p>
               </a>
@@ -43,25 +43,27 @@ export default function Navbar() {
             {/* Exchange */}
             <Link href="/exchange">
               <a>
-                <p className="text-blue-900 hover:text-darkGreyishBlue font-semibold">
+                <p className="text-blue-900 hover:text-darkGreyishBlue font-semibold active:text-yellow-500">
                   Exchange
                 </p>
               </a>
             </Link>
             {/* Tokenization */}
-            <a>
-              <p className="text-blue-900 hover:text-darkGreyishBlue font-semibold">
-                Tokenization
-              </p>
-            </a>
+            <Link href="/tokenization">
+              <a>
+                <p className="text-blue-900 hover:text-darkGreyishBlue font-semibold active:text-yellow-500">
+                  Tokenization
+                </p>
+              </a>
+            </Link>
             {/* Company */}
             <a>
-              <p className="text-blue-900 hover:text-darkGreyishBlue font-semibold">
+              <p className="text-blue-900 hover:text-darkGreyishBlue font-semibold active:text-yellow-500">
                 Company
               </p>
             </a>
             <a>
-              <p className="text-blue-900 hover:text-darkGreyishBlue font-semibold">
+              <p className="text-blue-900 hover:text-darkGreyishBlue font-semibold active:text-yellow-500">
                 Contact Us
               </p>
             </a>

@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar"
 import meet from "../public/meet.png"
 import bit from "../public/bit.png"
 import iconBthEth from "../public/smalliconBitEth.png"
+import Faq from "../components/Faq"
 
 export default function Exchange() {
   return (
@@ -75,7 +76,6 @@ export default function Exchange() {
               explicabo quae temporibus non. Optio nihil id delectus ipsa itaque
               ducimus consequuntur commodi minus explicabo eligendi.
             </p>
-            {/* Features of Exchange Development Services  */}
           </div>
         </div>
         {/* Token Development */}
@@ -228,19 +228,24 @@ export default function Exchange() {
           <div className="p-4 rounded-lg bg-white h-full">
             <div className="flex flex-col justify-start items-start my-5 space-y-8 w-full ">
               <h3 className="text-2xl font-bold text-color-[#23395f]">
-                Mission-driven services
+                99% Uptime
               </h3>
               <p className="text-sm font-semibold leading-6 text-color-[#23395f]">
-                Understanding your vision and doing everything you can do to support your community is what mission-driven customer service is all about.
+                Understanding your vision and doing everything you can do to
+                support your community is what mission-driven customer service
+                is all about.
               </p>
             </div>
           </div>
           {/* card 2 */}
           <div className="p-4 rounded-lg bg-white">
             <div className="flex flex-col justify-start items-start my-5 space-y-8 w-full ">
-              <h3 className="text-2xl font-bold text-color-[#23395f]">Technology-agnostic solutions</h3>
+              <h3 className="text-2xl font-bold text-color-[#23395f]">
+                Continuous Support
+              </h3>
               <p className="text-sm font-semibold leading-6 text-color-[#23395f]">
-                We are agnistic about the usage of any particular technology to solve your business problems
+                We are agnistic about the usage of any particular technology to
+                solve your business problems
               </p>
             </div>
           </div>
@@ -248,10 +253,11 @@ export default function Exchange() {
           <div className="p-4 rounded-lg bg-white">
             <div className="flex flex-col justify-start items-start my-5 space-y-8 w-full ">
               <h3 className="text-2xl font-bold text-color-[#23395f]">
-                Accelarated time-to-market
+                Modular Architecture
               </h3>
               <p className="text-sm font-semibold leading-6 text-color-[#23395f]">
-                The time between deciding to produce a product or service and actually launching it on the market.
+                The time between deciding to produce a product or service and
+                actually launching it on the market.
               </p>
             </div>
           </div>
@@ -259,10 +265,11 @@ export default function Exchange() {
           <div className="p-4 rounded-lg bg-white">
             <div className="flex flex-col justify-start items-start my-5 space-y-8 w-full ">
               <h3 className="text-2xl font-bold text-color-[#23395f]">
-                Reduced development cost
+                Market-leading Features
               </h3>
               <p className="text-sm font-semibold leading-6 text-color-[#23395f]">
-                Tokenization development company provides a cost-efficient service.
+                Tokenization development company provides a cost-efficient
+                service.
               </p>
             </div>
           </div>
@@ -270,10 +277,11 @@ export default function Exchange() {
           <div className="p-4 rounded-lg bg-white">
             <div className="flex flex-col justify-start items-start my-5 space-y-8 w-full ">
               <h3 className="text-2xl font-bold text-color-[#23395f]">
-                Round-the-clock support
+                Cost-efficient Services
               </h3>
               <p className="text-sm font-semibold leading-6 text-color-[#23395f]">
-                Our service exceeds client standards, and you can reach out to us at any time.
+                Our service exceeds client standards, and you can reach out to
+                us at any time.
               </p>
             </div>
           </div>
@@ -281,14 +289,26 @@ export default function Exchange() {
           <div className="p-4 rounded-lg bg-white">
             <div className="flex flex-col justify-start items-start my-5 space-y-8 w-full ">
               <h3 className="text-2xl font-bold text-color-[#23395f]">
-                +15 years of technical experience
+                Design Thinking Driven Solutions
               </h3>
               <p className="text-sm font-semibold leading-6 text-color-[#23395f]">
-                In the industry, the token development company have over 15 years of technical experience.
+                In the industry, the token development company have over 15
+                years of technical experience.
               </p>
             </div>
           </div>
         </div>
+        {/* FAQ */}
+        <div className="flex flex-col items-center justify-center w-full py-1">
+          <p className="font-bold text-yellow-500 text-xl">FAQ</p>
+          <h1 className="text-white font-bold text-2xl">
+            Frequently Asked Questions
+          </h1>
+          <p className="font-semibold text-white">
+            About our cryptocurrency Development Services
+          </p>
+        </div>
+        {/* <Faq /> */}
       </div>
       <Footer />
     </>

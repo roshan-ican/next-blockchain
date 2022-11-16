@@ -1,3 +1,4 @@
+import Image from "next/image"
 import React from "react"
 
 function Footer() {
@@ -25,7 +26,7 @@ function Footer() {
               <img
                 src="https://www.fastxpo.com/fxp/images/logo.png"
                 className="h-8 w-full"
-                alt=""
+                alt="logo"
               />
             </div>
             <div className="flex flex-col justify-center space-y-2 py-2">

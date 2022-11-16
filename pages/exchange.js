@@ -308,7 +308,9 @@ export default function Exchange() {
             About our cryptocurrency Development Services
           </p>
         </div>
-        {/* <Faq /> */}
+        <div className="pb-5">
+          <Faq />
+        </div>
       </div>
       <Footer />
     </>

@@ -1,85 +1,44 @@
-import { Fragment, useState } from "react"
-import {
-  Accordion,
-  AccordionHeader,
-  AccordionBody,
-} from "@material-tailwind/react"
+import React from "react"
 
-function Icon({ id, open }) {
+export default function Faq() {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      className={`${
-        id === open ? "rotate-180" : ""
-      } h-5 w-5 transition-transform`}
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-      strokeWidth={2}
-    >
-      <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-    </svg>
-  )
-}
-
-const Faq = () => {
-  const [open, setOpen] = useState(0)
-  const handleOpen = (value) => {
-    setOpen(open === value ? 0 : value)
-  }
-  return (
-    <div className="grid grid-cols-1">
-      <Accordion
-        open={open === 1}
-        icon={<Icon id={1} open={open} />}
-        className="flex justify-center items-center mx-10"
-      >
-        <AccordionHeader
-          onClick={() => handleOpen(1)}
-          className="text-white active:text-white"
-        >
-          How does Token Exchange work ?
-        </AccordionHeader>
-        <AccordionBody className="text-white">
-          A crypto exchange may launch its own token for a variety of reasons,
-          and exchange owners often give tokens to users as incentives.
-          Generally speaking, most exchange tokens are designed to increase an
-          exchange's liquidity, incentivize trading activity, or facilitate an
-          exchange's community governance process.
-        </AccordionBody>
-      </Accordion>
-      {/* second accordain */}
-      <Accordion
-        open={open === 2}
-        icon={<Icon id={2} open={open} />}
-        className="flex justify-center items-center mx-10"
-      >
-        <AccordionHeader onClick={() => handleOpen(2)} className="text-white">
-          How to use Material Tailwind?
-        </AccordionHeader>
-        <AccordionBody className="text-white">
-          We're not always in the position that we want to be at. We're
-          constantly growing. We're constantly making mistakes. We're constantly
-          trying to express ourselves and actualize our dreams.
-        </AccordionBody>
-      </Accordion>
-      {/* thrid accordain */}
-      <Accordion
-        open={open === 3}
-        icon={<Icon id={3} open={open} />}
-        className="flex justify-center items-center mx-10"
-      >
-        <AccordionHeader onClick={() => handleOpen(3)} className="text-white">
-          What can I do with Material Tailwind?
-        </AccordionHeader>
-        <AccordionBody className="text-white">
-          We're not always in the position that we want to be at. We're
-          constantly growing. We're constantly making mistakes. We're constantly
-          trying to express ourselves and actualize our dreams.
-        </AccordionBody>
-      </Accordion>
+    <div>
+      <div className="w-full px-4 mx-auto mt-10 space-y-2 shadow lg:max-w-md">
+        <details className="p-4 rounded-lg bg-white">
+          <summary className="font-semibold ">
+            How to create Accordion (FAQ) in react ?
+          </summary>
+          <div className="mt-3">
+            <p className="text-sm leading-6 text-gray-900">
+              React with Tailwind CSS Faq Accordion, can be made using simple
+              HTML tags like Details and Summery and the useful styling classes
+              of tailwindcss.
+            </p>
+          </div>
+        </details>
+        <details className="p-4 rounded-lg bg-white">
+          <summary className="font-semibold">
+            What is a <code>details</code> tag?
+          </summary>
+          <div className="mt-3">
+            <p className="text-sm leading-6 text-gray-900">
+              The <code>details</code> tag is often used to create an
+              interactive widget that the user can open & close.
+            </p>
+          </div>
+        </details>
+        <details className="p-4 rounded-lg bg-white">
+          <summary className="font-semibold">
+            What is the <code>summery</code> tag ?
+          </summary>
+          <div className="mt-3">
+            <p className="text-sm leading-6 text-gray-900">
+              The <code>summery</code> tag defines a visible heading for the
+              details
+            </p>
+          </div>
+        </details>
+      </div>
     </div>
   )
 }
-
-export default Faq

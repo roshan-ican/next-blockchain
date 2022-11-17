@@ -113,7 +113,93 @@ export default function Company() {
           </div>
         </div>
         {/* Why Join Us */}
-        
+        <div className="flex flex-col items-center justify-center w-full py-2 space-y-3">
+          <h1 className="text-white font-bold text-3xl">Why Join Us</h1>
+          <h2 className="text-yellow-500 font-semibold text-2xl">
+            Great Working Environment
+          </h2>
+          <p className="text-white font-normal tracking-wider text-center space-y-2">
+            Before enabling interfaces, revolutionary ideas dynamically
+            transitioned
+            <br /> technically sound frameworks with cutting-edge ambitions.{" "}
+          </p>
+        </div>
+        {/* Cards */}
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-2 pt-5 lg:pt-10 lg:pb-10 mx-20">
+          {/* card 1 */}
+          <div className="p-2 rounded-lg bg-[#e9eef4] h-full ">
+            <div className="flex flex-col justify-start items-start space-y-2 mx-4 w-full ">
+              <p className="text-2xl font-semibold text-[#23395f] p-2">
+                Remote Working Facilitis
+              </p>
+              <p className="text-sm font-semibold text-[#23395f] p-2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
+                commodi deleniti exercitationem rerum suscipit eveniet? Autem,
+                neque repellendus. Nobis eos culpa dolores temporibus
+                consequuntur placeat numquam dolorem labore inventore
+                recusandae.
+              </p>
+            </div>
+          </div>
+          {/* Card 2 */}
+          <div className="p-2 rounded-lg bg-[#e9eef4] h-full ">
+            <div className="flex flex-col justify-start items-start space-y-2 mx-4 w-full ">
+              <p className="text-2xl font-semibold text-[#23395f] p-2">
+                Flexible Working Hours
+              </p>
+              <p className="text-sm font-semibold text-[#23395f] p-2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
+                commodi deleniti exercitationem rerum suscipit eveniet? Autem,
+                neque repellendus. Nobis eos culpa dolores temporibus
+                consequuntur placeat numquam dolorem labore inventore
+                recusandae.
+              </p>
+            </div>
+          </div>
+          {/* Card 3 */}
+          <div className="p-2 rounded-lg bg-[#e9eef4] h-full ">
+            <div className="flex flex-col justify-start items-start space-y-2 mx-4 w-full ">
+              <p className="text-2xl font-semibold text-[#23395f] p-2">
+                Friendly Skilled Team
+              </p>
+              <p className="text-sm font-semibold text-[#23395f] p-2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
+                commodi deleniti exercitationem rerum suscipit eveniet? Autem,
+                neque repellendus. Nobis eos culpa dolores temporibus
+                consequuntur placeat numquam dolorem labore inventore
+                recusandae.
+              </p>
+            </div>
+          </div>
+          {/* Card 4 */}
+          <div className="p-2 rounded-lg bg-[#e9eef4] h-full ">
+            <div className="flex flex-col justify-start items-start space-y-2 mx-4 w-full ">
+              <p className="text-2xl font-semibold text-[#23395f] p-2">
+                Medical Insurance Facilitis
+              </p>
+              <p className="text-sm font-semibold text-[#23395f] p-2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
+                commodi deleniti exercitationem rerum suscipit eveniet? Autem,
+                neque repellendus. Nobis eos culpa dolores temporibus
+                consequuntur placeat numquam dolorem labore inventore
+                recusandae.
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* Let's try get free support */}
+        <div className="flex flex-col items-center justify-center w-full py-2 space-y-8">
+          <h2 className="text-yellow-500 font-semibold text-3xl">
+            Let's Try! Get Free Support
+          </h2>
+          <p className="text-white text-2xl font-normal tracking-wider text-center space-y-2">
+            We can help you create your dream website for
+            <br /> better business revenue.
+          </p>
+          <button className="bg-white text-[#192943] rounded-md font-bold px-4 py-2 border-b-4 border-gray-500">
+            Contact Us
+          </button>
+        </div>
       </div>
       <Footer />
     </>

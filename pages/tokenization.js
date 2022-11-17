@@ -20,7 +20,7 @@ export default function Tokenization() {
         {/* Best Tokenization service in blockchain */}
         <div className="flex flex-col-reverse md:flex-row items-center px-6 space-y-0 md:space-y-0">
           {/* Left Item */}
-          <div className="flex flex-col mb-32 space-y-12 md:w-1/2 justify-around mx-10">
+          <div className="flex flex-col mb-32 space-y-12 md:w-1/2 justify-around mx-2">
             <h1 className="w-full text-4xl font-bold text-center md:text-5xl md:text-left text-white">
               Best Tokenization service in Blockchain
             </h1>

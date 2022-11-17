@@ -64,11 +64,14 @@ export default function Navbar() {
                 </p>
               </a>
             </Link>
-            <a>
-              <p className="text-blue-900 hover:text-darkGreyishBlue font-semibold active:text-yellow-500">
-                Contact Us
-              </p>
-            </a>
+            {/* Contact */}
+            <Link href="/contact">
+              <a>
+                <p className="text-blue-900 hover:text-darkGreyishBlue font-semibold active:text-yellow-500">
+                  Contact Us
+                </p>
+              </a>
+            </Link>
           </div>
           {/* Button */}
           {/* <a

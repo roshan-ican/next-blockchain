@@ -57,11 +57,13 @@ export default function Navbar() {
               </a>
             </Link>
             {/* Company */}
-            <a>
-              <p className="text-blue-900 hover:text-darkGreyishBlue font-semibold active:text-yellow-500">
-                Company
-              </p>
-            </a>
+            <Link href="/company">
+              <a>
+                <p className="text-blue-900 hover:text-darkGreyishBlue font-semibold active:text-yellow-500">
+                  Company
+                </p>
+              </a>
+            </Link>
             <a>
               <p className="text-blue-900 hover:text-darkGreyishBlue font-semibold active:text-yellow-500">
                 Contact Us
